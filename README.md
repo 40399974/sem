@@ -6,4 +6,4 @@
 
 * License [![Releases](https://img.shields.io/github/release/40399974/sem/all.svg?style=flat-square)](https://github.com/40399974/sem/releases)
 
-* Release ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/developer.yml?branch=developer)
+* Release ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/main.yml?branch=developer)
