@@ -1,4 +1,4 @@
-Software Engineering Methods_ 
+# Software Engineering Methods
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/main.yml?branch=master) 
 
@@ -6,5 +6,4 @@ Software Engineering Methods_
 
 [![Releases](https://img.shields.io/github/release/40399974/sem/all.svg?style=flat-square)](https://github.com/40399974/sem/releases)
 
-# Software Engineering Methods
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/main.yml?branch=developer)
