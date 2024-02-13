@@ -1,9 +1,9 @@
 # Software Engineering Methods
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/main.yml?branch=master) 
+* Master Build Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/<username>/<repository>/<action file name>.yml?branch=<master branch>)
 
-[![LICENSE](https://img.shields.io/github/license/40399974/sem.svg?style=flat-square)](https://github.com/40399974/sem/blob/main/LICENSE) 
+* Develop Branch Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/<username>/<repository>/<action file name>.yml?branch=<develop branch>)
 
-[![Releases](https://img.shields.io/github/release/40399974/sem/all.svg?style=flat-square)](https://github.com/40399974/sem/releases)
+* License [![LICENSE](https://img.shields.io/github/license/<username>/<repository>.svg?style=flat-square)](https://github.com/<username>/<repository>/blob/master/LICENSE)
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/main.yml?branch=developer)
+* Release [![Releases](https://img.shields.io/github/release/<username>/<repository>/all.svg?style=flat-square)](https://github.com/<username>/<repository>/releases)
