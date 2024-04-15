@@ -1,8 +1,7 @@
 package com.napier.sem;
 
 import java.sql.*;
-
-public class SelectAll {
+public class CountriesContinent {
     public static void main(String[] args) {
         // Database connection details
         String url = "jdbc:mysql://localhost:3306/world";
@@ -10,22 +9,19 @@ public class SelectAll {
         String password = "root_password";
 
         // Define SQL query to retrieve data
-        String query = "SELECT name, population, continent FROM country";
+        String query = "SELECT name, Continent, population FROM country";
 
         // Define order for the report
         String orderBy = "population DESC";
 
-        // Number of top items to return
-        int topItems =10;
-
         // Call the query method to execute the SQL query
-        query(url, username, password, query, orderBy, topItems, "Name", "Continent", "Population");
+        query(url, username, password, query, orderBy, "Name","Continent", "Population");
     }
 
     // Method to execute SQL query and display results
-    public static void query(String url, String username, String password, String query, String orderBy, int topItems, String... columns) {
-        // Append ORDER BY and LIMIT clauses to the SQL query
-        query = query + " ORDER BY " + orderBy + " LIMIT " + topItems;
+    public static void query(String url, String username, String password, String query, String orderBy, String... columns) {
+        // Append ORDER BY clause to the SQL query
+        query = query + " ORDER BY " + orderBy;
 
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
             // Connection successful
@@ -52,4 +48,3 @@ public class SelectAll {
         }
     }
 }
-
