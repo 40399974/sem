@@ -9,7 +9,7 @@ public class CountriesContinent {
         String password = "root_password";
 
         // Define SQL query to retrieve data
-        String query = "SELECT name, Continent, population FROM country";
+        String query = "SELECT name, continent, population FROM country";
 
         // Define order for the report
         String orderBy = "population DESC";
