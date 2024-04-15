@@ -2,50 +2,21 @@ package com.napier.sem;
 
 import java.sql.*;
 
-public class SelectSpecific {
+public class CountriesWorld {
     public static void main(String[] args) {
         // Database connection details
         String url = "jdbc:mysql://localhost:3306/world";
         String username = "root";
         String password = "root_password";
 
-        // Define criteria for the query
-        String continent = "Africa"; // Specify the continent here
-        String country = ""; // Specify country
-        String region = "Eastern Africa"; // Specify region
-        String city = ""; // Specify city
-
-        // Define SQL query to retrieve data for countries based on specified criteria
-        String query = "SELECT country.name AS Country, city.name AS City, counrty.region AS Region " +
-                "FROM country " +
-                "JOIN city ON country.code = city.countrycode" +
-                "WHERE 1 = 1";
-
-        // If continent is specified, add it to the query
-        if (!continent.isEmpty()) {
-            query += " AND country.continent = '" + continent + "'";
-        }
-
-        // If country is specified, add it to the query
-        if (!country.isEmpty()) {
-            query += " AND country.name = '" + country + "'";
-        }
-
-        // If region is specified, add it to the query
-        if (!region.isEmpty()) {
-            query += " AND city.district = '" + region + "'";
-        }
-
-        // If city is specified, add it to the query
-        if (!city.isEmpty()) {
-            query += " AND city.name = '" + city + "'";
-        }
+        // Define SQL query to retrieve data
+        String query = "SELECT name, population FROM country";
 
         // Define order for the report
-        String orderBy = "country.name, city.name";
+        String orderBy = "population DESC";
 
         // Call the query method to execute the SQL query
-        query(url, username, password, query, orderBy, "Country", "City", "Region");
+        query(url, username, password, query, orderBy, "Name", "Population");
     }
 
     // Method to execute SQL query and display results
@@ -69,6 +40,8 @@ public class SelectSpecific {
                     System.out.println(); // Move to the next line after printing all columns
                 }
             }
+
+            // You can add more SQL queries here
 
         } catch (SQLException e) {
             // Exception occurred during database operation, print the stack trace
