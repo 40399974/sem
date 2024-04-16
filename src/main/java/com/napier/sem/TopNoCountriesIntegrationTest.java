@@ -13,9 +13,9 @@ public class TopNoCountriesIntegrationTest {
     @Test
     void testQuery() {
         // Database connection details
-        String url = "jdbc:mysql://localhost:3306/world"; // Update with your actual database URL
-        String username = "root"; // Update with your actual database username
-        String password = "root_password"; // Update with your actual database password
+        String url = "jdbc:mysql://localhost:3306/world";
+        String username = "root";
+        String password = "root_password";
 
         // Define SQL query to retrieve data
         String query = "SELECT COUNT(*) FROM country";
