@@ -1,16 +1,11 @@
-package com.napier.sem;
-import org.junit.jupiter.api.Test;
-
-import java.sql.*;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
+import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
+import java.sql.*;
 
-public class TopNoCountriesIntegrationTest {
-
+class MyTest
+{
     @Test
+
     void testQuery() {
         // Database connection details
         String url = "jdbc:mysql://localhost:3306/world";
@@ -39,3 +34,4 @@ public class TopNoCountriesIntegrationTest {
         }
     }
 }
+
