@@ -29,7 +29,8 @@ Violation of this code of conduct will result in members receiving a reduced per
 
 | Requirement ID | Requirement Name | Requirement Met | Screenshot |
 |----------------|------------------|-----------------|------------|
-| 01             | All countries in the world organized by largest population to smallest | No | [Screenshot](screenshots/world_countries.png) |
+| 01             | All countries in the world organized by largest population to smallest | No | ![image](https://github.com/40399974/sem/assets/159801837/310adb6b-1255-413d-a83f-94487cef85f8)
+ |
 | 02             | All countries in a continent organized by largest population to smallest | No | [Screenshot](screenshots/continent_countries.png) |
 | 03             | All countries in a region organized by largest population to smallest | No | [Screenshot](screenshots/region_countries.png) |
 | 04             | Top N populated countries in the world (N provided by user) | No | [Screenshot](screenshots/top_N_world_countries.png) |
