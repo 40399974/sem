@@ -23,23 +23,23 @@ Violation of this code of conduct will result in members receiving a reduced per
 
 # Feature Requirements
 
-This README outlines the requirements for our application and provides evidence of each requirement being met.
+14 out of 32 requiremnets have been met this is 43%
 
-## Table of Requirements
+## Requirements Table
 
 | Requirement ID | Requirement Name | Requirement Met | Screenshot |
 |----------------|------------------|-----------------|------------|
-| RQ001          | User Login       | Yes             | [Screenshot](screenshots/login.png) |
-| RQ002          | Data Import      | Yes             | [Screenshot](screenshots/data_import.png) |
-| RQ003          | Data Export      | No              | [Screenshot](screenshots/data_export.png) |
-
-## Screenshots
-
-### User Login
-![Login Screenshot](screenshots/login.png)
-
-### Data Import
-![Data Import Screenshot](screenshots/data_import.png)
-
-### Data Export
-![Data Export Screenshot](screenshots/data_export.png)
+| 01             | All countries in the world organized by largest population to smallest | No | [Screenshot](screenshots/world_countries.png) |
+| 02             | All countries in a continent organized by largest population to smallest | No | [Screenshot](screenshots/continent_countries.png) |
+| 03             | All countries in a region organized by largest population to smallest | No | [Screenshot](screenshots/region_countries.png) |
+| 04             | Top N populated countries in the world (N provided by user) | No | [Screenshot](screenshots/top_N_world_countries.png) |
+| 05             | Top N populated countries in a continent (N provided by user) | No | [Screenshot](screenshots/top_N_continent_countries.png) |
+| 06             | Top N populated countries in a region (N provided by user) | No | [Screenshot](screenshots/top_N_region_countries.png) |
+| 07             | All cities in the world organized by largest population to smallest | No | [Screenshot](screenshots/world_cities.png) |
+| 08             | All cities in a continent organized by largest population to smallest | No | [Screenshot](screenshots/continent_cities.png) |
+| 09             | All cities in a region organized by largest population to smallest | No | [Screenshot](screenshots/region_cities.png) |
+| 10             | All cities in a country organized by largest population to smallest | No | [Screenshot](screenshots/country_cities.png) |
+| 11             | All cities in a district organized by largest population to smallest | No | [Screenshot](screenshots/district_cities.png) |
+| 12             | Top N populated cities in the world (N provided by user) | No | [Screenshot](screenshots/top_N_world_cities.png) |
+| 13             | Top N populated cities in a continent (N provided by user) | No | [Screenshot](screenshots/top_N_continent_cities.png) |
+| 14             | Top N populated cities in a region (N provided by user) | No | [Screenshot](screenshots/top_N_region_cities.png) |
