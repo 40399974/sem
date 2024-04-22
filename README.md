@@ -2,7 +2,9 @@
 
 * Master Build Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/40399974/sem/main.yml?branch=master) 
 
-* Develop Branch Status [![LICENSE](https://img.shields.io/github/license/40399974/sem.svg?style=flat-square)](https://github.com/40399974/sem/blob/main/LICENSE) 
+* Develop Branch Status [![LICENSE](https://img.shields.io/github/license/40399974/sem.svg?style=flat-square)](https://github.com/40399974/sem/blob/main/LICENSE)
+
+* Code Coverage of tests https://img.shields.io/codecov/c/github/40399974/sem
 
 * Release [![Releases](https://img.shields.io/github/release/40399974/sem/all.svg?style=flat-square)](https://github.com/40399974/sem/releases)
 
