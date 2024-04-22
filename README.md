@@ -4,7 +4,7 @@
 
 * Develop Branch Status [![LICENSE](https://img.shields.io/github/license/40399974/sem.svg?style=flat-square)](https://github.com/40399974/sem/blob/main/LICENSE)
 
-* Code Coverage of tests https://img.shields.io/codecov/c/github/40399974/sem
+* Code Coverage of tests <img alt="Codecov" src="https://img.shields.io/codecov/c/github/40399974/sem">
 
 * Release [![Releases](https://img.shields.io/github/release/40399974/sem/all.svg?style=flat-square)](https://github.com/40399974/sem/releases)
 
